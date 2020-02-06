@@ -132,6 +132,20 @@
   background-size: cover;
 }
 
+.header{
+  color: rgb(59, 59, 59);
+  font-size: 45px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Shadows Into Light', cursive;  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  white-space: pre-wrap;
+  text-shadow: #FC0 1px 0 10px;
+}
+
 .viewport {
   width: 42vw;
   height: 21vw;
@@ -298,6 +312,7 @@
 .left-arrow {
   top: 50%;
   left: -35%;
+
 }
 
 .right-arrow {
@@ -309,4 +324,6 @@
   top: 140%;
   left: 120%;
 }
+
+
 
