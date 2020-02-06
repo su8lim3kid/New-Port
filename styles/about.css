@@ -130,6 +130,9 @@
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url(/Users/admin/Desktop/personal_project/New_personal_site/images/bg.jpg) no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
 }
 
 .header{
@@ -323,6 +326,23 @@
 .play-pause {
   top: 140%;
   left: 120%;
+}
+
+.containerx{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url(/Users/admin/Desktop/personal_project/New_personal_site/images/bg.jpg) no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.mytext{
+  font-size: 45px;
+  text-shadow: #FC0 1px 0 10px;
+  padding-left: 15px;
+  padding-right: 25px;
+ 
 }
 
 

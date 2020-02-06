@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Contact</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/contact.css">
   </head>
   <body>
+
+      <div class="banner1">
+          <div class="logo">
+              <a href="index.html"><img src="images/aalogo.png"></a>
+          </div>
+      </div>
     <div class="nav-wrapper">
       <div class="hamburger-menu">
           <div class="line line-1"></div>
@@ -25,7 +27,7 @@
                   <a href="index.html" class="nav-link" data-text="Home">Home</a>
               </li>
               <li>
-                  <a href="about_me.html" class="nav-link" data-text="About Me">About Me</a>
+                  <a href="about_me.html" class="nav-link" data-text="About">About</a>
               </li>
            
               <li>
@@ -36,7 +38,40 @@
               </li>
           </ul>
       </nav>
-    <h1>Contact</h1>
-      <script src="app.js"></script>
+    
+      
+    <div class="container">
+        <div class="banner">
+            <h1 class="banner-heading">Contact Me</h1>
+            <div class="arrow">
+                <i class="fas fa-arrow-down"></i>
+            </div>
+            <button class="banner-btn">Click Now</button>
+        </div>
+
+        <div class="form-container">
+            <form
+            action="https://formspree.io/mqkqldyl"
+            method="POST" class="sign-up-form"
+          >
+            
+                <input type="text" class="form-input" placeholder="FULL NAME">
+                <input type="email" class="form-input" placeholder="EMAIL ADDRESS">
+                <input type="message" class="form-input" placeholder="MESSAGE">
+
+                <button type="submit" type="button">SEND MESSAGE</button>
+            </form>
+
+            <div class="header">
+                <h1>Leave Me A Message</h1>
+            </div>
+
+            <div class="x-btn">&#10005;</div>
+        </div>
+    </div>
+
+      
+      <script src="app.js"></script>  
+      <script src="contact.js"></script>
   </body>
 </html>
