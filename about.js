@@ -74,3 +74,19 @@ document.querySelector('.right-arrow').addEventListener('mouseout', () => {
 document.querySelector('.play-pause').addEventListener('click', () => {
     playPause();
 });
+
+
+
+const heading = ' ABOUT ME! ';
+let i = 0;
+
+const typing = () => {
+    if(i < heading.length) {
+        document.querySelector('.header').innerHTML += heading.charAt(i);
+        i++;
+
+        setTimeout(typing, 150);
+    }
+}
+
+typing();
