@@ -59,7 +59,7 @@
 .top-nav {
   height: 15vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(/Users/admin/Desktop/personal_project/New_personal_site/images/bg.jpg) no-repeat 50% 0;
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(images/bg.jpg) no-repeat 50% 0;
   background-size: cover;
   position: fixed;
   top: -15vh;
@@ -128,7 +128,7 @@
 .container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url(/Users/admin/Desktop/personal_project/New_personal_site/images/bg.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url(images/bg.jpg) no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -202,17 +202,17 @@
 }
 
 .cube-1 .front {
-  background: url(/Users/admin/Desktop/personal_project/New_personal_site/images/slide-img-1.jpg) no-repeat 50% 0;
+  background: url(images/slide-img-1.jpg) no-repeat 50% 0;
   background-size: cover;
 }
 
 .cube-2 .front {
-  background: url(/Users/admin/Desktop/personal_project/New_personal_site/images/slide-img-1.jpg) no-repeat 50% -7vw;
+  background: url(images/slide-img-1.jpg) no-repeat 50% -7vw;
   background-size: cover;
 }
 
 .cube-3 .front {
-  background: url(/Users/admin/Desktop/personal_project/New_personal_site/images/slide-img-1.jpg) no-repeat 50% -14vw;
+  background: url(images/slide-img-1.jpg) no-repeat 50% -14vw;
   background-size: cover;
 }
 
@@ -221,17 +221,17 @@
 }
 
 .cube-1 .back {
-  background: url(/Users/admin/Desktop/personal_project/New_personal_site/images/seal.jpg) no-repeat 50% 0;
+  background: url(images/seal.jpg) no-repeat 50% 0;
   background-size: cover;
 }
 
 .cube-2 .back {
-  background: url(/Users/admin/Desktop/personal_project/New_personal_site/images/seal.jpg) no-repeat 50% -7vw;
+  background: url(images/seal.jpg) no-repeat 50% -7vw;
   background-size: cover;
 }
 
 .cube-3 .back {
-  background: url(/Users/admin/Desktop/personal_project/New_personal_site/images/seal.jpg) no-repeat 50% -14vw;
+  background: url(images/seal.jpg) no-repeat 50% -14vw;
   background-size: cover;
 }
 
@@ -241,17 +241,17 @@
 
 
 .cube-1 .left {
-  background: url(/Users/admin/Desktop/personal_project/New_personal_site/images/salt.jpg) no-repeat 50% 0;
+  background: url(images/salt.jpg) no-repeat 50% 0;
   background-size: cover;
 }
 
 .cube-2 .left {
-  background: url(/Users/admin/Desktop/personal_project/New_personal_site/images/salt.jpg) no-repeat 50% -7vw;
+  background: url(images/salt.jpg) no-repeat 50% -7vw;
   background-size: cover;
 }
 
 .cube-3 .left {
-  background: url(/Users/admin/Desktop/personal_project/New_personal_site/images/salt.jpg) no-repeat 50% -14vw;
+  background: url(images/salt.jpg) no-repeat 50% -14vw;
   background-size: cover;
 }
 
@@ -261,17 +261,17 @@
 
 
 .cube-1 .right {
-  background: url(/Users/admin/Desktop/personal_project/New_personal_site/images/la.jpeg) no-repeat 50% 0;
+  background: url(images/la.jpeg) no-repeat 50% 0;
   background-size: cover;
 }
 
 .cube-2 .right {
-  background: url(/Users/admin/Desktop/personal_project/New_personal_site/images/la.jpeg) no-repeat 50% -7vw;
+  background: url(images/la.jpeg) no-repeat 50% -7vw;
   background-size: cover;
 }
 
 .cube-3 .right {
-  background: url(/Users/admin/Desktop/personal_project/New_personal_site/images/la.jpeg) no-repeat 50% -14vw;
+  background: url(images/la.jpeg) no-repeat 50% -14vw;
   background-size: cover;
 }
 
@@ -331,7 +331,7 @@
 .containerx{
   height: 100vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url(/Users/admin/Desktop/personal_project/New_personal_site/images/bg.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url(images/bg.jpg) no-repeat;
   background-size: cover; 
   background-repeat: no-repeat;
   background-attachment: fixed;
